@@ -7,6 +7,7 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { LanguageToggleComponent } from './components/language-toggle/language-toggle.component';
 import { CardComponent } from './components/card/card.component';
+import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
 
 @NgModule({
   declarations: [
@@ -15,16 +16,17 @@ import { CardComponent } from './components/card/card.component';
     NotfoundComponent,
     SpinnerComponent,
     LanguageToggleComponent,
-    CardComponent
+    CardComponent,
+    ThemeToggleComponent
   ],
   imports: [
     CommonModule,
     TranslateModule
-  ],
-  exports: [
+  ],  exports: [
     LanguageToggleComponent,
     TranslateModule,
-    CardComponent
+    CardComponent,
+    ThemeToggleComponent
   ]
 })
 export class SharedModule { }
