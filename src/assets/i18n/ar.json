@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "TITLE": "مكتبات المكونات",
+    "DESCRIPTION": "هذه الصفحة الرئيسية",
+    "PRIMENG_FEATURES": "ميزات PrimeNG",
+    "BOOTSTRAP_FEATURES": "ميزات Bootstrap"
+  },
+  "COMMON": {
+    "LANGUAGE": "اللغة",
+    "ENGLISH": "English",
+    "ARABIC": "العربية"
+  }
+}

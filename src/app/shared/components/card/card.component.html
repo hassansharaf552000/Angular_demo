@@ -1,0 +1,9 @@
+<div class="card">
+  <img *ngIf="imageUrl" [src]="imageUrl" alt="card image" class="card-image">
+  <div class="card-content">
+    <h2 class="card-title" *ngIf="title">{{title}}</h2>
+    <h3 class="card-subtitle" *ngIf="subtitle">{{subtitle}}</h3>
+    <p class="card-text" *ngIf="content">{{content}}</p>
+    <ng-content></ng-content>
+  </div>
+</div>

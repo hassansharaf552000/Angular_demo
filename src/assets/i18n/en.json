@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "TITLE": "Component Libraries",
+    "DESCRIPTION": "This is the home page",
+    "PRIMENG_FEATURES": "PrimeNG Features",
+    "BOOTSTRAP_FEATURES": "Bootstrap Features"
+  },
+  "COMMON": {
+    "LANGUAGE": "Language",
+    "ENGLISH": "English",
+    "ARABIC": "Arabic"
+  }
+}
